@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       
       <Image alt="Logo" src="/images/logo.jpg" width={500} height={500} />
 
-      <h1 className="title">NIKE e-STORE {process.env.NEXT_PUBLIC_CUSTOM_KEY}</h1>
+      <h1 className="title">NIKE e-STORE </h1>
        <Link className="link" style={{ textDecoration: 'none' }} href="/catalogo">
             <button className="button"  >VEDI CATALOGO</button>      
         </Link>
